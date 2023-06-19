@@ -28,6 +28,7 @@
   {#if notWorkingGridId === null}
     <p>You found the solution</p>
   {:else}
+    <p>{notWorkingGridId}</p>
     <Grid id={notWorkingGridId} {side} />
   {/if}
 </main>
